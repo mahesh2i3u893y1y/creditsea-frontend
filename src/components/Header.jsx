@@ -10,7 +10,7 @@ import notifications from "../assets/notification.png";
 import toggle from "../assets/toggle.png";
 import message from "../assets/message.png";
 
-const Navbar = () => {
+const Header = () => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [selectedPortal, setSelectedPortal] = useState("User");
 
@@ -127,4 +127,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

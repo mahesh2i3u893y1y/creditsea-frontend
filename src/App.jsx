@@ -5,7 +5,8 @@ import Verifier from "./components/Verifier";
 import Admin from "./components/Admin";
 // import LoanForm from "./components/LoanForm";
 import AuthForm from "./components/AuthForm";
-import Navbar from "./components/navbar";
+// import Navbar from "./components/Header";
+import Header from "./components/Header";
 // import Navbar from "./components/Navbar"; 
 
 // const Layout = () => (
@@ -19,7 +20,7 @@ const App = () => {
   return (
     <Router>
       {/* Redirect from `/` to `/user` */}
-      <Navbar/>
+      <Header/>
       <Routes>
         {/* <Route path="/" element={<Navigate to="/user" replace />} /> */}
         
