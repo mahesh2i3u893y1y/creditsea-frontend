@@ -12,11 +12,13 @@ const UserLoans = () => {
 
   const getMyLoans = async () => {
     try {
-      const res = await fetch("https://creditsea-backend-6.onrender.com/my-loans", {
-        method: "GET",
-        headers: { "Content-Type": "application/json" },
-        credentials: "include",
-      });
+      const res = await fetch(
+        "https://creditsea-backend-8.onrender.com/my-loans",
+        {
+          method: "GET",
+          credentials: "include",
+        }
+      );
       const result = await res.json();
       setLoans(result.loans);
     } catch (err) {
@@ -37,7 +39,7 @@ const UserLoans = () => {
     };
   }, []);
 
-  if(!myLoans) return <p>...Loading loans</p>
+  if (!myLoans) return <p>...Loading loans</p>;
 
   //   console.log("local storage", user);
   return (

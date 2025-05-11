@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_BASE = "https://creditsea-backend-6.onrender.com";
+const API_BASE = "https://creditsea-backend-8.onrender.com";
 
 const useMonthlyStats = () => {
   const [monthlyData, setMonthlyData] = useState(null);

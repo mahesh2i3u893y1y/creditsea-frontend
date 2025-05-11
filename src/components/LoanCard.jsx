@@ -30,8 +30,8 @@ const LoanCard = ({ loans, permissions }) => {
     console.log(payload);
 
     const apiUrl = location.pathname.includes("/verifier")
-      ? "https://creditsea-backend-6.onrender.com/verifier/update-status"
-      : "https://creditsea-backend-6.onrender.com/admin/update-status";
+      ? "https://creditsea-backend-8.onrender.com/verifier/update-status"
+      : "https://creditsea-backend-8.onrender.com/admin/update-status";
 
     try {
       const res = await fetch(apiUrl, {

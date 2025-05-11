@@ -24,7 +24,7 @@ const LoanForm = ({ onClose }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("https://creditsea-backend-6.onrender.com/apply-loan", {
+    const res = await fetch("https://creditsea-backend-8.onrender.com/apply-loan", {
         method:"POST",
         headers:{
             "Content-Type":"application/json"
