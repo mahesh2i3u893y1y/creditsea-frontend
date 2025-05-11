@@ -2,7 +2,7 @@ import React from 'react';
 // import NavbarVerifier from './NavbarVerifier';
 import Sidebar from './sidebar';
 import VerifierDashoard from './VerifierDashoard';
-import Navbar from './navbar';
+// import Navbar from './Navbar';
 
 const Verifier = () => {
 
@@ -10,11 +10,11 @@ const Verifier = () => {
   return (
     <div className="h-screen">
       {/* Fixed Navbar */}
-      <div className="fixed top-0 left-0 w-full z-50 h-16">
+      {/* <div className="fixed top-0 left-0 w-full z-50 h-16">
         <Navbar />
-      </div>
+      </div> */}
       {/* Main content below navbar */}
-      <div className="pt-19 h-screen flex">
+      <div className=" h-screen flex">
         {/* Sidebar - 30% */}
         <div className="w-[18%] h-full overflow-y-auto scrollbar-hide ">
           <Sidebar />

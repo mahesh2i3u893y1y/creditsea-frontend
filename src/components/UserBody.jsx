@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './navbar'
+// import Navbar from './Navbar'
 import { User } from './User'
 import UserLoans from './UserLoans'
 
 const UserBody = () => {
   return (
     <div className='bg-[#EFEFEF] min-h-screen'>
-        <Navbar/>
+        {/* <Navbar/> */}
         <User/>
         <UserLoans/>
     </div>
